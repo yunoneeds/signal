@@ -1,0 +1,1243 @@
+ *{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #FFFFFF;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Sourse San Code";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+  }
+  
+  p{ font-family: 'CarlaSansLight';
+      font-size: 70px;
+  }
+
+
+.container.palki{
+  width: 200px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 70px;
+}
+
+
+.palka{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/palkapodfinding.svg')
+}
+
+.container.palkii{
+  width: 200px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 1600px;
+  top: 70px;
+}
+
+.palkaa{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/palkapodfinding.svg')
+}
+
+/*.panel{
+ display: inline-block;
+ margin: 0;
+ filter: blur(0px);
+ animation: blur-text 2.5s infinite linear alternate;
+}
+
+.panel{
+  position: relative;
+  left: 750px;
+  top: -10px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.clients{
+  display: inline-block;
+  margin: 0;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.clients{
+  position: relative;
+  left: 595px;
+  top: 15px;
+  font-size: 21px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.date{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.date{
+  position: relative;
+  top: -10px;
+  left: 1350px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.earth{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.earth{
+  position: relative;
+  top: 25px;
+  left: 1220px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.search{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.search{
+  position: relative;
+  top: 70px;
+  left: -693px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.updates{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.updates{
+  position: relative;
+  top: 70px;
+  left: 980px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+*/
+
+.container.stick{
+  width: 261px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: 8px;
+  top: 150px;
+}
+
+.stick{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url('../images/palkatochka.svg');
+}
+
+
+.containers.sticker{
+  width: 261px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: 1290px;
+  top: 1px;
+}
+
+.sticker{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url('../images/palkatochka.svg');
+}
+
+/*.words{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(8px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.words{
+  position: relative;
+  top: 10px;
+  left: -620px;
+  font-size: 20px;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.more{
+  display: inline-block;
+  margin: 0px;
+  filter: blur(0px);
+}
+
+.more{
+  position: relative;
+  top: -8px;
+  left: -620px;
+  font-size: 20px;
+}
+*/
+
+.square{
+  width: 500px;
+  height: 1510px;
+  display: block;
+  position: absolute;
+  left: -650px;
+  top: -60px;
+}
+
+.long.square{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url('../images/composition.svg');
+  background-repeat: no-repeat;
+}
+
+.moon{
+  display: inline-block;
+  margin: 0px;
+}
+
+.moon.letter{
+  position: relative;
+  top: 60px;
+  left: -1285px;
+  font-size: 20px;
+}
+
+.count{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 60px;
+  left: -1245px;
+  font-size: 20px;
+}
+
+.sun{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 200px;
+  left: -1005px;
+  font-size: 20px;
+}
+
+.numbers{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 180px;
+  left: -930px;
+  font-size: 20px;
+}
+
+.dates{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 260px;
+  left: -1190px;
+  font-size: 20px;
+}
+
+  .elipse{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    left: -640px;
+    top: 60px;
+    animation: bozhe 5s ease infinite alternate;
+  }
+  
+  .little.elipse{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url(../images/Ellipse.svg);
+  }
+  
+  
+  .circle:hover{
+    animation-play-state: paused;
+  }
+
+  .draggable
+  {
+    cursor: move;
+  }
+
+  .circle{
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    left: -420px;
+    top: 100px;
+  }
+  
+  .little.circle{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url(../images/Ellipse.svg);
+  }
+
+  .going{
+    width: 515px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    left: -1310px;
+    top: 500px;
+  }
+  
+  .plate{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url(../images/goingplate.svg);
+  }
+
+  .elipses{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url(../images/pikpikelipses.svg);
+  }
+  
+  .pikpik{
+    width: 510px;
+    height: 395px;
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: -100px;
+    animation: path 10s ease infinite alternate;
+  }
+  
+  @keyframes walk {
+    0%{background-position: 0px top;}
+    /*25%{background-position: -68px top;}
+    75%{background-position: -136px top;}*/
+    100%{background-position: -100px top;}
+  }
+  @keyframes path {
+    0%{left: -1400px;}
+    /* 25%{left: 30%; top: 200px;}
+    50%{left: 50%; top: 150px;}
+    55%{left: 56%; top: 200px;} */
+    100%{left: -1300px;}
+  }
+  
+  .go{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: 365px;
+    left: -1290px;
+    font-size: 48px;
+  }
+
+  .on{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: 465px;
+    left: -980px;
+    font-size: 20px;
+  }
+
+  .in{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: 525px;
+    left: -1060px;
+    font-size: 20px;
+  }
+
+  .mnogo{
+    width: 241px;
+    height: 241px;
+    display: block;
+    position: absolute;
+    left: -1295px;
+    top: 600px;
+  }
+  
+  .krugi{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url('../images/mnogocircles.svg');
+  }
+
+  .lipsis{
+    width: 168px;
+    height: 235px;
+    display: block;
+    position: absolute;
+    left: -1250px;
+    top: 600px;
+    animation: rotate 6s infinite linear;
+  }
+  
+  .lipsos{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url('../images/ilipsis.svg');
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+  .ilipsis{
+    width: 255px;
+    height: 110px;
+    display: block;
+    position: absolute;
+    left: -1300px;
+    top: 670px;
+    animation: rotate 6s infinite linear;
+  }
+  
+  .olipsis{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url('../images/ilipsisis.svg');
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .enter{
+    overflow: hidden;
+    width:580px;
+    height: 110px;
+    top: 10px;
+    left: -700px;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 20;
+    animation: lightning 8s infinite;
+
+  }
+  
+  .texxt{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-image: url(../images/enter.svg);
+  }
+
+  @keyframes lightning {
+    from, 50%, to { opacity: 1 }
+    25%, 75% { opacity: 0 }
+}
+
+.deliver{
+  width: 515px;
+  height: 400px;
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 500px;
+}
+
+.place{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/secondcom.svg);
+}
+
+.ver{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 299px;
+  left: 100px;
+  font-size: 48px;
+}
+
+.deli{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 570px;
+  left: 420px;
+  font-size: 20px;
+}
+
+.off{
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 600px;
+  left: 350px;
+  font-size: 20px;
+}
+
+.box{
+  width: 200px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 600px;
+}
+
+.moving{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/again.svg);
+}
+
+.putt{
+  display: block;
+  position: relative;
+  opacity: 10%;
+}
+
+.putt{
+  top: -210px;
+  left: -1290px;
+  width: 200px;
+}
+
+.put{
+  opacity: 10%;
+  position: relative;
+  top: -230px;
+}
+
+.central{
+  width: 515px;
+  height: 500px;
+  display: block;
+  position: absolute;
+  left: -600px;
+  top: 200px;
+}
+
+.thing{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/centralthingagain.svg);
+  background-repeat: no-repeat;
+}
+
+.letters{
+  width: 515px;
+  height: 500px;
+  display: block;
+  position: absolute;
+  left: -450px;
+  top: 315px;
+}
+
+.fourlet{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/letters.svg);
+  background-repeat: no-repeat;
+}
+
+.center{
+  width: 580px;
+  height: 800px;
+  display: block;
+  position: absolute;
+  left: -650px;
+  top: 300px;
+  animation: rotate 6s infinite linear;
+}
+
+.pelis{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/centerelipse.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+
+.center2{
+  width: 580px;
+  height: 800px;
+  display: block;
+  position: absolute;
+  left: -650px;
+  top: 300px;
+  animation: rotate 6s infinite linear;
+}
+
+.pelis2{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/pelis2.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.center3{
+  width: 580px;
+  height: 800px;
+  display: block;
+  position: absolute;
+  left: -600px;
+  top: 350px;
+  animation: rotate 6s infinite linear;
+}
+
+.pelis3{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/pelis3.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.bott{
+  width: 515px;
+  height: 500px;
+  display: block;
+  position: absolute;
+  left: -470px;
+  top: 750px;
+}
+
+.knopka{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/bott.svg);
+  background-repeat: no-repeat;
+}
+
+.sticks{
+  width: 1252px;
+  height: 2820px;
+  display: block;
+  position: relative;
+  left: -1313px;
+  top: 700px;
+}
+
+.frame{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/sticks2frame.svg);
+  background-repeat: no-repeat;
+}
+
+.setka{
+  width: 1500px;
+  height: 365px;
+  display: block;
+  position: relative;
+  left: -850px;
+  top: -1450px;
+}
+
+.blusetka{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/setka.svg);
+  background-repeat: no-repeat;
+}
+
+.san{
+  width: 435px;
+  height: 435px;
+  display: block;
+  position: relative;
+  left: -270px;
+  top: -1950px;
+}
+
+.blusan{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/sun.svg);
+  background-repeat: no-repeat;
+}
+
+.mun{
+  width: 571px;
+  height: 901px;
+  display: block;
+  position: relative;
+  left: -1100px;
+  top: -2900px;
+  animation: rotate 6s infinite linear;
+}
+
+.white{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/muun.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.center4{
+  width: 1500px;
+  height: 1500px;
+  display: block;
+  position: absolute;
+  left: -1300px;
+  top: 1200px;
+  animation: rotate 5s infinite linear;
+}
+
+.pelis4{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-image: url(../images/pelis4.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+.phase{
+  width: 480px;
+  height: 585px;
+  top: -3750px;
+  left: -500px;
+  display: block;
+  position: relative;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.pase{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/phase.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(4px);}
+}
+
+.grid{
+  width: 1161px;
+  height: 1079px;
+  display: block;
+  position: relative;
+  left: -1295px;
+  top: -3200px;
+}
+
+.cosmos{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/grid.svg);
+  background-repeat: no-repeat;
+}
+
+.lines{
+  width: 1507px;
+  height: 2254px;
+  display: block;
+  position: relative;
+  left: -1205px;
+  top: -4410px;
+}
+
+.vertic{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/lines3frame.svg);
+  background-repeat: no-repeat;
+}
+
+.stars{
+  width: 1507px;
+  height: 2254px;
+  display: block;
+  position: relative;
+  left: -1205px;
+  bottom: 6400px;
+}
+
+.sign{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-image: url(../images/stars.svg);
+  background-repeat: no-repeat;
+}
+
+.exam{
+  width: 1507px;
+  height: 2254px;
+  display: block;
+  position: relative;
+  left: 300px;
+  bottom: 8800px;
+}
+
+.ple{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/exampl.svg);
+  background-repeat: no-repeat;
+}
+
+.star{
+  width: 776px;
+  height: 523px;
+  display: block;
+  position: relative;
+  left: -260px;
+  bottom: 11050px;
+}
+
+.one{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/oonestar.svg);
+  background-repeat: no-repeat;
+}
+
+.sec{
+  width: 245px;
+  height: 223px;
+  display: block;
+  position: relative;
+  left: -290px;
+  bottom: 11250px;
+}
+
+.blo{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/secstar.svg);
+  background-repeat: no-repeat;
+}
+
+.evec{
+  width: 738px;
+  height: 573px;
+  display: block;
+  position: relative;
+  left: -150px;
+  bottom: 11500px;
+}
+
+.veca{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/ervec.svg);
+  background-repeat: no-repeat;
+}
+
+.obje{
+  width: 311px;
+  height: 20px;
+  display: block;
+  position: relative;
+  left: 40px;
+  bottom: 11700px;
+}
+
+.jeco{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/object№101110011.111.svg);
+  background-repeat: no-repeat;
+}
+
+.back{
+  width: 1492px;
+  height: 1500px;
+  display: block;
+  position: relative;
+  left: -1200px;
+  bottom: 11600px;
+}
+
+.backstars{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backstars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+
+  animation: moveBackground 5s linear infinite;
+}
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.backlines{
+  width: 2038px;
+  height: 1315px;
+  display: block;
+  position: relative;
+  left: -1400px;
+  bottom: 12850px;
+}
+
+.backup{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/lines4fr.svg);
+  background-repeat: no-repeat;
+}
+
+
+.gray{
+  width: 152px;
+  height: 152px;
+  display: block;
+  position: relative;
+  left: -1200px;
+  bottom: 14050px;
+}
+
+.lil{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/lilmun.svg);
+  background-repeat: no-repeat;
+}
+
+.gry{
+  width: 162px;
+  height: 162px;
+  display: block;
+  position: relative;
+  left: 380px;
+  bottom: 13450px;
+}
+
+.mim{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/graylil.svg);
+  background-repeat: no-repeat;
+}
+
+.texxtt{
+  width: 1780px;
+  height: 1000px;
+  display: block;
+  position: relative;
+  left: -920px;
+  bottom: 14440px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.xex{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/text.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(3px);}
+}
+
+.shine{
+  width: 658px;
+  height: 668px;
+  display: block;
+  position: relative;
+  left: -1265px;
+  bottom: 15110px;
+}
+
+.blink{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/SHINING\ STAAAARR.svg);
+  background-repeat: no-repeat;
+}
+
+.uvantex{
+  width: 1780px;
+  height: 1000px;
+  display: block;
+  position: relative;
+  left: -5px;
+  bottom: -10px;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+.uvan{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/text1frame.svg);
+  background-repeat: no-repeat;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(3px);}
+}
+
+.rectan{
+  width: 1111px;
+  height: 106px;
+  display: block;
+  position: relative;
+  left: -500px;
+  bottom: 16100px;
+}
+
+.pryam{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Rectangleblur.svg);
+  background-repeat: no-repeat;
+}
+
+.sosud{
+  width: 683px;
+  height: 535px;
+  display: block;
+  position: relative;
+  left: -250px;
+  bottom: 15900px;
+}
+
+.kvadrat{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/sosud.svg);
+  background-repeat: no-repeat;
+}
+
+.happy{
+  width: 184px;
+  height: 255px;
+  display: block;
+  position: relative;
+  left: -250px;
+  bottom: 15800px;
+}
+
+.house{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/happy.svg);
+  background-repeat: no-repeat;
+  filter: blur(0px);
+  animation: blur-text 2.5s infinite linear alternate;
+}
+
+@keyframes blur-text{
+  0%{filter: blur(1px);}
+  10%{filter: blur(3px);}
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

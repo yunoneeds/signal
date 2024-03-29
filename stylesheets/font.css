@@ -1,0 +1,7 @@
+@font-face { 
+    font-family: "Source Sans 3", sans-serif;
+    src: url("../font/SourceSans3-VariableFont_wght.ttf") format("truetype");
+    font-weight: light;
+    font-style: light; 
+    letter-spacing: 30%;
+}
